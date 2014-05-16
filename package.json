@@ -1,0 +1,8 @@
+{
+  "name": "modupdate",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "express": "^4.2.0"
+  }
+}
