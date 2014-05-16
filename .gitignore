@@ -1,5 +1,5 @@
 /node_modules
 
-/files
+config.js
 
-config.json
+/files

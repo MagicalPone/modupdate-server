@@ -2,10 +2,7 @@ var fs = require('fs');
 var express = require('express');
 var app = express();
 
-var options = {
-	port: 12312,
-	filedir: __dirname + '/files/mods'
-}
+var options = require('./config');
 
 app.get('/filelist', function(req, res) {
   fs.readdir(options.filedir, function(err, files) {
